@@ -85,12 +85,12 @@ class Rijndael
   
   
   def add_round_key(blockArray, roundKey)
-  0.upto(3) { |i|
-    0.upto(@blockWords) { |j|
-      blockArray[i][j] ^= roundKey[i][j]
+    0.upto(3) { |i|
+      0.upto(@blockWords) { |j|
+        blockArray[i][j] ^= roundKey[i][j]
+      }
     }
-  }
-  return(blockArray)
+    return(blockArray)
   end
   
   
