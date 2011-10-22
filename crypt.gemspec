@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dan Langevin"]
   s.date = "2011-10-22"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Fixes several small bugs relating to string encoding"
   s.email = "dan.langevin@lifebooker.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "crypt.gemspec",
     "crypt.txt",
     "lib/crypt.rb",
     "lib/crypt/blowfish-tables.rb",
@@ -48,7 +49,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.11"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Crypt for Ruby 1.9"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
